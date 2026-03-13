@@ -23,6 +23,8 @@ O repositório está organizado da seguinte forma:
 
 - database - Scripts de criação das tabelas
 
+- planilha - Arquivos de dados da planilha
+
 - queries - Consultas SQL desenvolvidas para análise e validação
 
 - documentacao - Documentação das etapas do processo
