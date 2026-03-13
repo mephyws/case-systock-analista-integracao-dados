@@ -112,3 +112,10 @@ Um backup do banco utilizado na análise está disponível na pasta:
 backup/systock_case_backup.sql
 
 Esse arquivo permite restaurar o ambiente completo para reprodução dos testes.
+
+---
+
+Autor
+
+Matheus Guimarães
+Analista de Dados
