@@ -87,6 +87,7 @@ queries/
 A documentação detalhada desse processo encontra-se nos arquivos:
 
 documentacao/consultas_sql.pdf
+
 documentacao/transformacao_dados.pdf
 
 ---
