@@ -27,6 +27,8 @@ O repositório está organizado da seguinte forma:
 
 - documentacao - Documentação das etapas do processo
 
+- trigger - Script que gera uma automação
+
 - backup - Backup do banco utilizado na análise
 
 
