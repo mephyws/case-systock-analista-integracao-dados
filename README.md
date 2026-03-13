@@ -21,7 +21,7 @@ Estrutura do projeto
 
 O repositório está organizado da seguinte forma:
 
-- database - Scripts de criação das tabelas e importação da planilha
+- database - Scripts de criação das tabelas
 
 - queries - Consultas SQL desenvolvidas para análise e validação
 
@@ -54,7 +54,7 @@ Durante esse processo foram realizados os seguintes tratamentos:
 
 A documentação detalhada desse processo encontra-se no arquivo:
 
-documentacao/processo_importacao.md
+documentacao/documentacao_importacao.md
 
 ---
 
@@ -68,11 +68,36 @@ Foram implementadas consultas para:
 
 - Transformações de dados (concatenação de produto, formatação de datas e filtros)
 
-- Trigger para geração automática de fornecedor.
-
 Os scripts podem ser encontrados na pasta:
 
 queries/
+
+A documentação detalhada desse processo encontra-se nos arquivos:
+
+documentacao/consultas_sql.md
+documentacao/transformacao_dados.md
+
+---
+
+Trigger para geração automática de fornecedor
+
+Foi criada uma trigger responsável por gerar automaticamente o campo idfornecedor na tabela produtos_filial.
+
+O identificador segue o padrão:
+
+F1, F2, F3...
+
+A lógica implementada identifica o maior identificador existente e gera o próximo valor disponível.
+
+O script está disponível em:
+
+triggers/trigger-idfornecedor.sql
+
+A documentação detalhada desse processo encontra-se no arquivo:
+
+documentacao/transformacao_dados.md
+
+A descrição dessa etapa está em Criação da Trigger.
 
 ---
 
@@ -90,7 +115,7 @@ Também foi elaborado um roteiro de validação dos dados do mês de fevereiro d
 
 Essa documentação encontra-se em:
 
-documentacao/validacao_dados_cliente.md
+documentacao/validação_cliente.md
 
 ---
 
@@ -98,7 +123,7 @@ Backup do banco
 
 Um backup do banco utilizado na análise está disponível na pasta:
 
-backup/systock_case_backup.sql
+backup/systock_backup_case.sql
 
 Esse arquivo permite restaurar o ambiente completo para reprodução dos testes.
 
