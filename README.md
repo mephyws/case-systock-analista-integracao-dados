@@ -50,7 +50,7 @@ Durante esse processo foram realizados os seguintes tratamentos:
 
 - Validação de campos obrigatórios
 
-- Nnormalização de datas
+- Normalização de datas
 
 - Conferência de consistência entre tabelas.
 
