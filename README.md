@@ -40,6 +40,16 @@ DBeaver
 
 ---
 
+Criação das tabelas
+
+A criação de tabelas se deu pelos scripts que o case forneceu, porém, foi identificado inconsistências, o que levou à alguns ajustes.
+
+A documentação desses ajustes encontra-se em:
+
+documentacao/documentacao_ajustes_tabelas.pdf
+
+---
+
 Processo de importação
 
 A importação da planilha base_teste_systock.xlsx foi realizada utilizando o assistente de importação de dados do DBeaver, que permite mapear colunas da planilha diretamente para tabelas do banco de dados.
@@ -54,7 +64,7 @@ Durante esse processo foram realizados os seguintes tratamentos:
 
 A documentação detalhada desse processo encontra-se no arquivo:
 
-documentacao/documentacao_importacao.md
+documentacao/documentacao_importacao.pdf
 
 ---
 
@@ -74,8 +84,8 @@ queries/
 
 A documentação detalhada desse processo encontra-se nos arquivos:
 
-documentacao/consultas_sql.md
-documentacao/transformacao_dados.md
+documentacao/consultas_sql.pdf
+documentacao/transformacao_dados.pdf
 
 ---
 
@@ -95,7 +105,7 @@ triggers/trigger-idfornecedor.sql
 
 A documentação detalhada desse processo encontra-se no arquivo:
 
-documentacao/transformacao_dados.md
+documentacao/transformacao_dados.pdf
 
 A descrição dessa etapa está em Criação da Trigger.
 
@@ -115,7 +125,7 @@ Também foi elaborado um roteiro de validação dos dados do mês de fevereiro d
 
 Essa documentação encontra-se em:
 
-documentacao/validação_cliente.md
+documentacao/validação_cliente.pdf
 
 ---
 
