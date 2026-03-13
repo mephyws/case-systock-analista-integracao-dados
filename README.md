@@ -25,8 +25,6 @@ database - Scripts de criação das tabelas e importação da planilha
 
 queries - Consultas SQL desenvolvidas para análise e validação
 
-triggers - Scripts de criação da trigger para geração automática de idfornecedor
-
 documentacao - Documentação das etapas do processo
 
 backup - Backup do banco utilizado na análise
