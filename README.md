@@ -68,27 +68,13 @@ Foram implementadas consultas para:
 
 - Identificação de produtos com requisição pendente
 
-- Transformações de dados (concatenação de produto, formatação de datas e filtros).
+- Transformações de dados (concatenação de produto, formatação de datas e filtros)
+
+- Trigger para geração automática de fornecedor.
 
 Os scripts podem ser encontrados na pasta:
 
 queries/
-
----
-
-Trigger para geração automática de fornecedor
-
-Foi criada uma trigger responsável por gerar automaticamente o campo idfornecedor na tabela produtos_filial.
-
-O identificador segue o padrão:
-
-F1, F2, F3...
-
-A lógica implementada identifica o maior identificador existente e gera o próximo valor disponível.
-
-O script está disponível em:
-
-triggers/trigger_idfornecedor.sql
 
 ---
 
